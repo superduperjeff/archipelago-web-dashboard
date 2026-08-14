@@ -21,8 +21,8 @@ multiworld_dir = "./multiworld"
 # you're not hosting the multiworld yourself, just watching one that's running
 # on someone else's server. Ignored entirely if a local host.yaml is present.
 [server.remote]
-host = ""              # e.g. "archipelago.gg", leave blank if you host locally
-port = 38281
+host = "archipelago.gg"             # e.g. "archipelago.gg", leave blank if you host locally
+port = 45573
 password = ""          # room password, if the remote server has one
 tls = true              # public rooms (archipelago.gg included) need this on; turn off only for a plain ws:// remote server
 
